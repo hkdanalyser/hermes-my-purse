@@ -15,6 +15,5 @@ RUN npm install
 WORKDIR /opt/hermes
 RUN chmod +x /opt/hermes/docker/entrypoint.sh
 
-<<<<<<< HEAD
 ENV HERMES_HOME=/hermesdata
 ENTRYPOINT [ "/opt/hermes/docker/entrypoint.sh" ]
